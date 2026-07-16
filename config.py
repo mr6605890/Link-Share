@@ -9,16 +9,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Recommended
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", os.environ.get("API_ID", "0")) or "0")
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8889873123:AAGntzbE2Mgl7vl6lgGDaKpsZLJlw8rYEGM")
+APP_ID = int(os.environ.get("APP_ID", os.environ.get("API_ID", "30800287")) or "0")
+API_HASH = os.environ.get("API_HASH", "6d4de3e85c8b20beccb92439c57aa398")
 
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "0") or "0")
+OWNER_ID = int(os.environ.get("OWNER_ID", "8075531485") or "0")
 PORT = int(os.environ.get("PORT", "8080") or "8080")
 
 # Database
-DB_URI = os.environ.get("DB_URI", os.environ.get("DB_URL", os.environ.get("DATABASE_URL", "")))
+DB_URI = os.environ.get("DB_URI", os.environ.get("DB_URL", os.environ.get("DATABASE_URL", "mongodb+srv://rsmasud004_db_user:LIVFCIzYJpkBdl3e@cluster0.kamj3cm.mongodb.net/?appName=Cluster0")))
 DB_NAME = os.environ.get("DB_NAME", "Unrated-LinkShare-Bot")
 
 #Auto approve 
@@ -62,7 +62,7 @@ USER_ROAST = "<b>⚠️ ғᴜᴄᴋ ʏᴏᴜ, ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ �
 
 # Logging
 LOG_FILE_NAME = "links-sharingbot.txt"
-DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "0") or "0") # Channel where user links are stored
+DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1003935457808") or "0") # Channel where user links are stored
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 try:
