@@ -18,7 +18,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "8075531485") or "0")
 PORT = int(os.environ.get("PORT", "8080") or "8080")
 
 # Database
-DB_URI = os.environ.get("DB_URI", os.environ.get("DB_URL", os.environ.get("DATABASE_URL", "mongodb+srv://rsmasud004_db_user:LIVFCIzYJpkBdl3e@cluster0.kamj3cm.mongodb.net/?appName=Cluster0")))
+DB_URI = os.environ.get("DB_URI", os.environ.get("DB_URL", os.environ.get("DATABASE_URL", "mongodb+srv://otakumongo8:otakumongo8@cluster0.kiy5lxh.mongodb.net/?appName=Cluster0")))
 DB_NAME = os.environ.get("DB_NAME", "Unrated-LinkShare-Bot")
 
 #Auto approve 
