@@ -19,7 +19,7 @@ PORT = int(os.environ.get("PORT", "8080") or "8080")
 
 # Database
 DB_URI = os.environ.get("DB_URI", os.environ.get("DB_URL", os.environ.get("DATABASE_URL", "mongodb+srv://otakumongo8:otakumongo8@cluster0.kiy5lxh.mongodb.net/?appName=Cluster0")))
-DB_NAME = os.environ.get("DB_NAME", "Unrated-LinkShare-Bot")
+DB_NAME = os.environ.get("DB_NAME", "Links-Share")
 
 #Auto approve 
 id_pattern = re.compile(r'^.\d+$')
